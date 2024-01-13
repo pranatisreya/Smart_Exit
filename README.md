@@ -1,55 +1,7 @@
-SMART EXIT
-A GatePass System for CBIT Students
-A Minor Project Report of V-Semester Submitted in the
-Partial Fulfillment of the Requirements
-for the Award of the Degree of
-BACHELOR OF ENGINEERING
-IN
-INFORMATION TECHNOLOGY
-Submitted by
-DAMA PRANATI SREYA 160121737006
-POOJITHA TANGUTURI 160121737021
-SUPERVISOR
-K.Gangadhara Rao
-Assistant professor
-Department of information Technology
-CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY
-An Autonomous Institute,Affiliated to Osmania University
-December, 2023
-CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY
-An Autonomous Institute,Affiliated to Osmania University
-Department of Information Technology
-CERTIFICATE
-This is to certify that the project titled SMART EXIT : A GatePass System
-for CBIT Students is carried out by
-DAMA PRANATI SREYA 160121737006
-POOJITHA TANGUTURI 160121737021
-in partial fulfillment of the requirements for the award of the degree of Bachelor
-of Engineering in Information Technology during the year 2023-2024.
-Signature of the Supervisor Signature of the HOD
-K.Gangadhara Rao Dr. Rajanikanth Aluvalu
-Assistant professor Professor and Head, IT
-Gandipet(V),Ranga Reddy (Dist.)–500075, Hyderabad, T.S.
-www.cbit.ac.in
-Acknowledgement
-The satisfaction that accompanies the successful completion of the task would
-be put incomplete without the mention of the people who made it possible,
-whose constant guidance and encouragement crown all the efforts with success.
-We wish to express our deep sense of gratitude to K.Gangadhara Rao, Assistant professor and Project Supervisor, Department of Information Technology,
-Chaitanya Bharathi Institute of Technology, for his able guidance and useful
-suggestions, which helped us in completing the project in time.
-We are particularly thankful to Dr. Rajanikanth Aluvalu, the Head of
-the Department, Department of Information Technology, his guidance, intense
-support and encouragement, which helped us to mould our project into a successful one.
-We show gratitude to our honorable Principal Dr. C. V. NARASIMHULU,
-for providing all facilities and support.
-We also thank all the staff members of Information Technology department
-for their valuable support and generous advice. Finally thanks to all our friends
-and family members for their continuous support and enthusiastic help.
-DAMA PRANATI SREYA
-POOJITHA TANGUTURI
-i
-Abstract
+# SMART EXIT: A GatePass System for CBIT Students
+
+ 
+# Abstract
 ”In today’s digital age, the pivotal role of technology in maintaining and
 managing information is universally acknowledged. The ”SMART EXIT” project
 aligns with this vision, utilizing full-stack development to innovate a departure
@@ -61,6 +13,7 @@ obtaining approval for various types of leaves, including lunch breaks, half-day
 leaves, and emergency leaves. It is an acknowledgment of the necessity to move
 beyond the traditional manual methods of physical verification and embrace
 technology for greater efficiency.
+
 Leveraging full-stack development, the ”SMART EXIT” system has been
 built from the ground up, encompassing both the frontend and backend aspects
 of application development. The utilization of full-stack development brings
@@ -71,6 +24,7 @@ using the application can effortlessly submit their departure requests, specifyi
 the type of leave and providing details and reasons for their temporary absence.
 This feature significantly simplifies and expedites the traditionally cumbersome
 task of obtaining permissions to leave the college premises.
+
 The heart of the ”SMART EXIT” system lies in its approval process. Once
 a student submits a leave request, it is routed to a designated faculty member
 for review and approval. The faculty member can efficiently assess the request
@@ -80,7 +34,7 @@ decision-making but also maintains a comprehensive digital record of student
 departures and approvals. The system features a secure authorization process
 that enhances security and maintains accurate records for student departures
 and arrivals.
-ii
+
 The ”SMART EXIT” project offers a practical solution to the complex task
 of managing student departures within a college environment. By leveraging
 modern technology and adopting full-stack development, this system not only
@@ -90,57 +44,69 @@ development, features, and implementation of the ”SMART EXIT” application,
 which stands as a testament to how technology can enhance the efficiency and
 effectiveness of routine administrative tasks within an educational institution
 that prides itself on its technological acumen.
+
+# 
 Table of Contents
-Title Page No.
-Acknowledgement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . i
+
 Abstract . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ii
 List of Tables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vi
 List of Figures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vii
 Abbreviations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vii
+
 CHAPTER 1 INTRODUCTION . . . . . . . . . . . . . . . . . . . . . 1
 1.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
 1.2 Application . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
 1.3 Objective . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+
 CHAPTER 2 Literature Survey . . . . . . . . . . . . . . . . . . . . . . 5
+
 CHAPTER 3 Software Requirement Analysis . . . . . . . . . . . . . 7
 3.1 Problem Statement . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
 3.2 Modules defined and their functionalities . . . . . . . . . . . . . . . 8
+
 CHAPTER 4 Software Design . . . . . . . . . . . . . . . . . . . . . . . 10
 4.1 Data Flow Diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
 4.2 UML Diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
 4.3 Sequence Diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
 4.3.1 Sequence Diagram for Faculty: . . . . . . . . . . . . . . . . . 12
 4.3.2 Sequence Diagram for Student: . . . . . . . . . . . . . . . . . 13
+
 CHAPTER 5 Software and Hardware requirements . . . . . . . . . 14
 5.1 Software requirements . . . . . . . . . . . . . . . . . . . . . . . . . . 14
 5.2 Hardware requirements . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+
 CHAPTER 6 Coding Templates . . . . . . . . . . . . . . . . . . . . . . 17
 6.1 Client . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
 6.2 Server . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
 6.3 Execution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+
 CHAPTER 7 Testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
 7.1 Black Box Testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
 7.2 White Box Testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
-iv
 7.3 System Testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
 7.4 MongoDB Compass (for Database Testing): . . . . . . . . . . . . . . 25
+
 CHAPTER 8 Output Screens . . . . . . . . . . . . . . . . . . . . . . . 29
 8.1 Home Page . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
 8.2 Login Pages . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
 8.3 Student Registrations . . . . . . . . . . . . . . . . . . . . . . . . . . 30
 8.4 Student Page . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
 8.5 Faculty Page . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+
 CHAPTER 9 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+
 CHAPTER 10 Further Enhancements . . . . . . . . . . . . . . . . . . 35
 10.1 Furture Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+
 Bibliography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
-List of Tables
+
+## List of Tables
 7.1 Student Registrations Data . . . . . . . . . . . . . . . . . . . . . . . 25
 7.2 Student Gatepass Details in collection . . . . . . . . . . . . . . . . . 26
 7.3 CBIT Security details in collection . . . . . . . . . . . . . . . . . . . 27
 7.4 Faculty Details in collection . . . . . . . . . . . . . . . . . . . . . . . 27
-vi
-List of Figures
+
+## List of Figures
 4.1 Data Flow Diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
 4.2 uml diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
 4.3 Sequence Diagram for Faculty . . . . . . . . . . . . . . . . . . . . . 12
@@ -156,14 +122,17 @@ List of Figures
 8.9 Student Leave Applications . . . . . . . . . . . . . . . . . . . . . . . 32
 8.10 Faculty Page . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
 8.11 Faculty Leave Applications Approval or Rejection . . . . . . . . . . 32
-vii
-Abbreviations
+
+## Abbreviations
 Abbreviation Description
 CBIT Chaitanya Bharathi Institute of Technology
 IT Information Technology
-CHAPTER 1
-INTRODUCTION
-1.1 Introduction
+
+
+# CHAPTER 1
+## INTRODUCTION
+
+### 1.1 Introduction
 In the dynamic landscape of today’s digital era, the integration of technology
 is fundamental in reshaping traditional processes and enhancing efficiency. Embracing this ethos, our team has embarked on a transformative journey in the
 realm of Full Stack Development, culminating in the creation of the ”SMART
@@ -176,13 +145,12 @@ database management, our team utilized MERN to craft the innovative ”SMART
 EXIT” online gatepass system. This system, aptly named ”SMART EXIT,”
 serves as a testament to the efficacy of modern technology in simplifying and
 streamlining the traditionally cumbersome process of student departure requests
-within educational institutions.
-”Smart Exit: An Online Gatepass System for CBIT Students” marks a
+within educational institutions.”Smart Exit: An Online Gatepass System for CBIT Students” marks a
 significant leap in modernizing access control procedures within organizations.
 Departing from conventional paper-based methods, this digital solution streamlines the process of requesting and managing gatepasses. In essence, it provides a
 sophisticated platform for individuals to submit access requests, obtain approvals,
 and monitor the status.
-1
+
 One of the primary features of the Smart Exit is its user-friendly interface.
 This design facilitates a smooth experience for users, allowing them to input
 necessary information effortlessly and navigate the system with ease. Real-time
@@ -196,6 +164,7 @@ adds an extra layer of security, aligning with the contemporary need for robust
 access control measures. User authentication and secure storage of access records
 contribute to an overall secure environment, mitigating the risks associated with
 unauthorized access.
+
 The ”SMART EXIT” project introduces a user-centric platform featuring
 distinct login options for students, faculty, and security personnel. Students can
 effortlessly submit gatepass requests, detailing the type of leave and reasons..
@@ -210,7 +179,9 @@ the MERN stack, has been instrumental in elevating the efficiency and effective
 that technology can have in reshaping conventional workflows and fostering a
 more streamlined, secure, and accountable environment.
 Department of Information Technology 2
-1.2 Application
+
+
+### 1.2 Application
 The ”SMART EXIT” system, meticulously crafted through Full Stack Development using the MERN stack, provides a tailored solution for managing student
 departures within the academic setting of CBIT. Distinct user roles—students,
 faculty, and security personnel—navigate a cohesive platform that integrates
@@ -234,8 +205,10 @@ A multi-tiered approval process ensures that access requests undergo structured
 scrutiny, preventing unauthorized individuals from granting permissions. By addressing the nuances of student departures, the application enhances efficiency,
 fosters security, and contributes to the overall effectiveness of administrative
 tasks within the educational institution.
-Department of Information Technology 3
-1.3 Objective
+Department of Information Technology 
+3
+
+### 1.3 Objective
 The primary goal of the ”SMART EXIT” project is to develop an efficient
 online gatepass system, aiming to replace traditional paper-based processes and
 enhance the overall management of student departures within the academic
@@ -244,6 +217,7 @@ of Full Stack Development, specifically utilizing the MERN stack (MongoDB,
 Express.js, React, Node.js). This comprehensive approach ensures the seamless
 integration of both frontend and backend components, contributing to a cohesive
 user experience.
+
 A key focus of the project is to enhance the user experience by creating a
 user-friendly interface for students, faculty, and security personnel. The aim is to
 simplify the process of submitting gatepass requests, approvals, and monitoring,
@@ -252,6 +226,7 @@ project places a strong emphasis on improving security measures by implementing
 a robust authorization hierarchy for gatepass approvals. This strategic measure
 ensures secure access control, preventing unauthorized individuals from granting
 permissions.
+
 Real-time tracking functionalities are integrated into the system to provide
 administrators with valuable insights into entry and exit activities. This feature
 allows for the generation of comprehensive reports, facilitating auditing and
@@ -261,9 +236,11 @@ The ”SMART EXIT” project aims to facilitate transparent communication
 between students submitting gatepass requests and faculty members responsible
 for approvals. This communication enhancement contributes to improved accountability in managing student departures through a secure and accountable
 process.
-Department of Information Technology 4
-CHAPTER 2
-Literature Survey
+
+ 4
+
+# CHAPTER 2
+## Literature Survey
 1. ”Enhancing Campus Security through Online Gatepass Systems”
 The research published in the International Journal of Advanced Security
 and Surveillance Systems (IJASSS) explores methods to bolster campus
@@ -281,23 +258,25 @@ Presented at the International Conference on Education Technology (ICET),
 this study explores technological solutions in educational settings, specifically assessing the transformative power of Full Stack Development. It
 examines the impact of modern technology, particularly through the MERN
 stack, in reshaping conventional workflows for routine administrative tasks.
-5
-4. ”User-Centric Design for Online Gatepass Systems: A Human-Computer
+4. "User-Centric Design for Online Gatepass Systems: A Human-Computer
 Interaction Perspective”
 From the Human-Computer Interaction Journal (HCIJ), this research emphasizes the significance of user-centric design in online gatepass systems.
 It evaluates the role of a friendly interface in simplifying the submission
 process and reducing errors, contributing to a more accessible and efficient
 system.
-5. ”Security Measures in Access Control: Lessons from Online Gatepass
+6. ”Security Measures in Access Control: Lessons from Online Gatepass
 Implementations”
 Published in the International Journal of Cybersecurity and Privacy (IJCS),
 this study analyzes security measures in access control through lessons
 learned from online gatepass implementations. It investigates the importance of a robust authorization hierarchy, user authentication, and secure
 storage of access records in creating a secure environment.
 Department of Information Technology 6
-CHAPTER 3
-Software Requirement Analysis
-3.1 Problem Statement
+
+
+
+# CHAPTER 3
+## Software Requirement Analysis
+### 3.1 Problem Statement
 In the contemporary academic environment, the conventional methods employed for overseeing student departures within educational institutions often rely
 on manual, paper-based processes. This outdated approach gives rise to inefficiencies, delays in approvals, and potential security vulnerabilities. The absence
 of a sophisticated and technologically advanced system hinders the seamless
@@ -318,7 +297,7 @@ the implementation of an advanced online gatepass system, the project aims
 to revolutionize the management of student departures at CBIT by integrating
 technology into routine administrative tasks within the institution.
 7
-3.2 Modules defined and their functionalities
+### 3.2 Modules defined and their functionalities
 In terms of frontend functionality, the ”SMART EXIT” online gatepass system
 encompasses several modules designed to enhance the user experience. The User
 Authentication module allows students, faculty, and security personnel to securely
@@ -352,11 +331,12 @@ Collectively, these frontend, backend, and database modules form a cohesive
 and functional architecture for the ”SMART EXIT” online gatepass system,
 addressing the complexities associated with student departure management and
 providing an innovative solution for CBIT.
-Department of Information Technology 9
-CHAPTER 4
-Software Design
-4.1 Data Flow Diagram
-Figure 4.1: Data Flow Diagram
+9
+
+# CHAPTER 4
+## Software Design
+### 4.1 Data Flow Diagram
+ Figure 4.1: Data Flow Diagram
 A Data Flow Diagram (DFD) is a visual representation that illustrates how
 data moves within a system. It consists of processes, data sources, data destinations, and data stores connected by arrows representing the flow of information.
 The DFD provides a comprehensive overview of the system’s data architecture,
@@ -365,8 +345,8 @@ Each component’s interactions are depicted, aiding in understanding system
 functionalities, identifying data inputs and outputs, and highlighting potential
 bottlenecks. DFDs are invaluable tools for system analysis and design, facilitating communication among stakeholders and guiding the development of efficient
 and well-structured information systems.
-10
-4.2 UML Diagram
+
+### 4.2 UML Diagram
 Figure 4.2: uml diagram
 U nified Modeling Language (UML) diagrams play a pivotal role in visually
 representing the architecture and design of the ”Smart Exit” project. These
@@ -381,7 +361,7 @@ contribute to a comprehensive and standardized understanding of the project’s
 structure and behavior.
 Department of Information Technology 11
 4.3 Sequence Diagram
-4.3.1 Sequence Diagram for Faculty:
+#### 4.3.1 Sequence Diagram for Faculty:
 Figure 4.3: Sequence Diagram for Faculty
 A sequence diagram for the faculty within the ”Smart Exit” project provides
 a dynamic representation of the interactions and communication flow between
@@ -395,7 +375,7 @@ status. The sequence diagram visually captures the chronological order of these
 interactions, offering a clear understanding of the faculty’s role in the approval
 process within the ”Smart Exit” system.
 Department of Information Technology 12
-4.3.2 Sequence Diagram for Student:
+#### 4.3.2 Sequence Diagram for Student:
 Figure 4.4: Sequence Diagram for Student
 A sequence diagram for a student in the ”Smart Exit” project illustrates
 the dynamic interactions and communication flow during the process of submitting and receiving approval for a departure request. The sequence begins
@@ -408,10 +388,12 @@ approves or rejects the request, the system updates the student, and if approved
 the security personnel are notified. The sequence diagram visually represents
 the step-by-step communication and data flow between the student, the system,
 faculty, and security within the departure request workflow.
-Department of Information Technology 13
-CHAPTER 5
-Software and Hardware requirements
-5.1 Software requirements
+ 13
+
+ 
+# CHAPTER 5
+## Software and Hardware requirements
+### 5.1 Software requirements
 Front-End Languages: Proficiency in HTML, CSS, and JavaScript is essential for building the user interface and interactivity of the website.
 Back-End Programming:Knowledge of a back-end programming language, such
 as Python or Node.js, is required for server-side processing, data management,
@@ -431,7 +413,7 @@ Node.js: It is an open-source, cross-platform runtime environment that allows
 developers to build server-side and networking applications using JavaScript. It
 is built on Chrome’s V8 JavaScript engine and is known for its high performance
 and scalability.
-14
+
 To work with MERN stack, you need to install the necessary software and tools
 on your development machine. These include MongoDB, Node.js, and a code
 editor or IDE.
@@ -470,10 +452,12 @@ Operating System: Any operating system that supports web development
 software (e.g., Windows, macOS, or Linux).
 Web Development Software: Tools such as an Integrated Development Environment (IDE) or code editor (e.g., Visual Studio Code, Sublime Text, or
 Atom).
-Department of Information Technology 16
-CHAPTER 6
-Coding Templates
-6.1 Client
+ 16
+
+
+# CHAPTER 6
+## Coding Templates
+### 6.1 Client
 Student Page
 The ‘StudentPage‘ component in this React application manages the display
 and submission of student information and leave applications. It utilizes the
@@ -483,7 +467,7 @@ The component features event handlers like ‘handleStatusChange‘ for updatin
 changes. The ‘handleSubmit‘ function is triggered on form submission, sending
 a POST request to submit leave applications, then fetching and updating the
 displayed applications.
-17
+
 The rendering section includes three main parts: the Student Information
 Section, the Leave Application Form Section, and the Previous Leave Applications Section presenting a table of historical leave applications with details such
 as reason, date, time slot, and status.
@@ -511,7 +495,9 @@ The component’s visual presentation is enhanced through a styles object,
 defining CSS styles for various elements. FacultyPage efficiently manages faculty
 and leave-related data, offering a user-friendly interface for leave application
 status updates and providing additional student details when necessary.
-6.2 Server
+
+
+### 6.2 Server
 The Node.js application employs the Express framework to create a web
 server, enhancing functionality through middleware like express.json() and express.urlencoded() for parsing request data, and the cors middleware for CrossOrigin Resource Sharing. Mongoose facilitates connectivity with a MongoDB
 database, with various schemas and models defined to structure data for entities
@@ -529,18 +515,23 @@ start. This basic overview emphasizes the foundational components of the code,
 highlighting middleware usage, endpoint organization, and asynchronous request
 handling.
 Department of Information Technology 21
-6.3 Execution
+
+
+### 6.3 Execution
 To set up the Smart Exit project, we install client dependencies and start
 the React server using npm start in the ./Client directory. Similarly, in the
 ./Server directory, install server dependencies and start the server with nodemon
 Server.js. Access the application at http://localhost:3000.
-Department of Information Technology 22
-CHAPTER 7
-Testing
+22
+
+
+# CHAPTER 7
+## Testing
 Testing is a crucial phase in software development to ensure that the application functions correctly and meets user expectations. In the context of
 the ”Smart Exit” project, various testing tools can be employed, and testing
 methodologies such as black box testing and white box testing can be applied.
-7.1 Black Box Testing
+
+### 7.1 Black Box Testing
 User Acceptance Testing (UAT):Students, faculty, and security personnel have
 actively participated in UAT to assess the system’s usability. This involves real
 users navigating the system to ensure that it aligns with their expectations,
@@ -554,7 +545,9 @@ is adequately protected.
 Performance Testing:The system’s performance under various conditions, including peak loads, has been evaluated to ensure it can handle a substantial number
 of simultaneous users without compromising speed and responsiveness.
 23
-7.2 White Box Testing
+
+
+### 7.2 White Box Testing
 Description: White box testing, also known as clear box testing, is a
 testing methodology where the internal workings, code structure, and logic of
 the software under test are known to the tester. Test cases are designed based
@@ -571,7 +564,9 @@ potential coding issues, ensuring that it adheres to coding standards and best
 practices.
 Security Code Review:A detailed examination of the code has been conducted
 to identify and rectify security vulnerabilities within the application’s codebase.
-7.3 System Testing
+
+
+### 7.3 System Testing
 Description: In the system testing phase of the ”Smart Exit” project, a
 comprehensive approach has been taken to ensure the robustness and reliability
 of the online gatepass system. End-to-end testing has been conducted, focusing on various scenarios and user flows to validate the seamless operation of
@@ -591,19 +586,18 @@ and manipulation, has been rigorously tested to ensure accurate record-keeping.
 Code Review:The source code has been reviewed to identify and rectify any
 potential coding issues, ensuring that it adheres to coding standards and best
 practices.
-7.4 MongoDB Compass (for Database Testing):
+
+
+### 7.4 MongoDB Compass (for Database Testing):
 MongoDB Compass is a graphical user interface for MongoDB that allows
 developers to explore and interact with their MongoDB data. While not a
 testing tool per se, it can be used to visually inspect and validate data in the
 MongoDB database.
-studentName rollNo branch section semester v year
-B Deekshitha 1.60E+11 it H1 v 0 3
-Poojitha Tanguturi 1.60E+11 it H1 v 0 3
-Gadda Bhavya Shree 1.60E+11 it H1 v 0 3
-Dama Pranati Sreya 1.60E+11 it H1 v 0 3
-Dama Vinayak Snehit 1.60E+11 bio-tech K iii 0 2
+
+
 Table 7.1: Student Registrations Data
-Department of Information Technology 25
+
+25
 The MongoDB collection represents student profiles, where each document holds
 comprehensive details. The automatically generated Object Id ”id” functions as
 the primary key, ensuring document uniqueness. Student information includes the
@@ -616,24 +610,9 @@ is set to 0. The ”year” field signifies the academic year and is stored as a
 String. This structured MongoDB collection efficiently manages diverse student
 data, facilitating organized retrieval and modification of individual profiles.
 rollNo reason date timeSlot status
-1.60E+11 health issue 14-11-2023 12:15-01:00 Approved
-1.60E+11 Free Periods 21-11-2023 01:00-02:00 Approved
-1.60E+11 No classwork 07-11-2023 12:15-01:00 Approved
-1.60E+11 free Hours 21-11-2023 02:00-03:00 Pending
-1.60E+11 sick 21-11-2023 10:10-11:10 Approved
-1.60E+11 free periods 22-11-2023 02:00-03:00 Approved
-1.60E+11 free periods 22-11-2023 12:15-01:00 Rejected
-1.60E+11 medical purpose 25-11-2023 11:10-12:15 Pending
-1.60E+11 free periods 24-11-2023 02:00-03:00 Rejected
-1.60E+11 free periods 25-11-2023 11:10-12:15 Pending
-1.60E+11 free periods 28-11-2023 02:00-03:00 Approved
-1.60E+11 free hours 29-11-2023 02:00-03:00 Approved
-1.60E+11 free periods 28-11-2023 02:00-03:00 Pending
-1.60E+11 sick 29-11-2023 02:00-03:00 Pending
-1.60E+11 free periods 13-12-2023 12:15-01:00 Rejected
-1.60E+11 no classes 15-12-2023 01:00-02:00 Pending
+
 Table 7.2: Student Gatepass Details in collection
-Department of Information Technology 26
+
 The MongoDB document represents a record of a student’s leave request. The
 unique identifier, ”id,” is an automatically generated Object Id. The ”roll No”
 field contains the student’s roll number, ”reason” provides details on the reason
@@ -644,9 +623,9 @@ as ”Pending,” representing the current state of the leave request. The ”v�
 field denotes the version and is set to 0. This MongoDB document organizes
 information related to student leave requests, facilitating efficient tracking and
 processing.
-Password Email PhoneNumber UserName
-123456 cbitsecurity@gmail.com 9999999999 CBITSecurity
+
 Table 7.3: CBIT Security details in collection
+
 The MongoDB collection represents user profiles, specifically designed for the
 college Security personnel. Each document is identified by the automatically
 generated Object Id ”id” and contains key information such as the user’s ”Password,” ”Email,” ”Phone Number,” and ”User Name.” The ”Password” field stores
@@ -657,13 +636,7 @@ structured collection enables secure user authentication and facilitates efficie
 management of contact details. The Object Id ensures document uniqueness,
 creating an organized repository for College Security personnel information in
 MongoDB.
-Name EmployeeID Department Year Class Section
-Gadda Bhavya Shree 1601008 Civil 2 bio-tech K
-Bandam Deekshitha 1601002 CSE 4 Civil A1
-Dama Pranati Sreya 1601006 IT 3 IT H1
-Tanguturi Poojitha 1601021 IT 1 IT H1
-Table 7.4: Faculty Details in collection
-Department of Information Technology 27
+
 The MongoDB collection captures detailed individual profiles with an automatically generated Object Id ”id” serving as a primary key. Fields such as
 ”Name,” ”Employee ID,” and ”Department” are stored as Strings, while ”Year”
 is represented as an Integer. Academic data, including ”Class” and ”Section,”
@@ -672,10 +645,11 @@ also Strings, along with ”Phone Number.” The ”password” field ensures se
 account access. This structured approach facilitates efficient storage and retrieval
 of diverse personal and academic information, creating a versatile and organized
 MongoDB collection for managing individual profiles.
-Department of Information Technology 28
-CHAPTER 8
-Output Screens
-8.1 Home Page
+28
+
+# CHAPTER 8
+## Output Screens
+### 8.1 Home Page
 The SMART EXIT Home page introduces an intuitive online gatepass system,
 providing distinct login options for students, faculty, and security. Streamlined
 with a user-friendly design, it efficiently guides users to their respective interfaces, emphasizing functionality for seamless departure management within the
@@ -685,7 +659,7 @@ This user-friendly prompt outlines the necessary steps for users to navigate
 the interface, guiding them through the login and registration process to gain
 access to the system.
 29
-8.2 Login Pages
+### 8.2 Login Pages
 In the login pages upon successful entry of valid credentials and clicking the
 ”Login” button, users are seamlessly directed to the respective Student, Faculty
 and Security main pages. In contrast, incorrect login credentials prompt an alert
@@ -699,7 +673,7 @@ Figure 8.3: Faculty
 Login Page
 Figure 8.4: Security
 Login Page
-8.3 Student Registrations
+### 8.3 Student Registrations
 The Student Registration facilitates user-friendly registering of new students
 in the SMART EXIT system. The form includes essential fields such as name,
 roll number, branch, year, section, semester, contact details, parent info, and
@@ -714,7 +688,7 @@ Figure 8.6: Student
 Register second page
 Figure 8.7: Student
 Register submit
-8.4 Student Page
+### 8.4 Student Page
 The StudentPage presents a comprehensive view of the student’s information
 and facilitates leave application management. The top section displays essential student details such as name, roll number, branch, year, section, semester,
 contact information, and parent details in an organized list. The alternating
@@ -728,7 +702,7 @@ previous applications, a concise message indicates the absence of recorded leave
 instances.
 Department of Information Technology 31
 Figure 8.8: Student Login Page Figure 8.9: Student Leave Applications
-8.5 Faculty Page
+### 8.5 Faculty Page
 The FacultyPage serves as a comprehensive interface for faculty members,
 offering easy access to essential information and efficient management of leave
 applications. The page initially presents key details about faculty members,
@@ -744,9 +718,11 @@ page also features a responsive student details popup for a closer examination
 of student-specific information.
 Overall, the FacultyPage streamlines administrative tasks, enabling faculty
 members to effectively manage leave requests and access pertinent student details.
-Department of Information Technology 33
-CHAPTER 9
-Conclusion
+ 33
+
+
+# CHAPTER 9
+## Conclusion
 In conclusion, the ”Smart Exit” online gatepass system, developed through
 MERN full-stack development, marks a transformative leap in streamlining
 departure requests and authorizations within the educational landscape. By digitizing the traditionally manual gatepass process, the project enhances efficiency,
