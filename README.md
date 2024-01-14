@@ -48,7 +48,7 @@ that prides itself on its technological acumen.
 # 
 Table of Contents
 
-Abstract . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ii
+* [Abstarct](https://github.com/pranatisreya/Smart_Exit?tab=readme-ov-file#abstract) .. . . . . . . . . . . . . . . . . . ii
 List of Tables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vi
 List of Figures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vii
 Abbreviations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vii
