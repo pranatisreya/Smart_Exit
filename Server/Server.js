@@ -116,11 +116,12 @@ app.post('/StudentRegister', async (req, res) => {
           user: 'example@gmail.com',
           pass: 'xxxxxxxxxxxxxxxxx',
           //https://www.gmass.co/blog/gmail-smtp/
+          //https://support.google.com/mail/answer/185833?hl=en
         },
       });
 
       const mailOptions = {
-        from: 'pranayasreti@gmail.com',
+        from: 'example@gmail.com',
         to: personalEmail,
         subject: 'CBIT smart-exit registration OTP',
         text: `Your OTP for registration is: ${otp}`,
