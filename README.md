@@ -101,27 +101,27 @@ CHAPTER 10 Further Enhancements
 Bibliography   
 
 ## List of Tables
-7.1 Student Registrations Data . . . . . . . . . . . . . . . . . . . . . . . 25
-7.2 Student Gatepass Details in collection . . . . . . . . . . . . . . . . . 26
-7.3 CBIT Security details in collection . . . . . . . . . . . . . . . . . . . 27
-7.4 Faculty Details in collection . . . . . . . . . . . . . . . . . . . . . . . 27
+7.1 Student Registrations Data   
+7.2 Student Gatepass Details in collection   
+7.3 CBIT Security details in collection  
+7.4 Faculty Details in collection   
 
 ## List of Figures
-4.1 Data Flow Diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
-4.2 uml diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
-4.3 Sequence Diagram for Faculty . . . . . . . . . . . . . . . . . . . . . 12
-4.4 Sequence Diagram for Student . . . . . . . . . . . . . . . . . . . . . 13
-8.1 Home Page . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
-8.2 Student Login Page . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
-8.3 Faculty Login Page . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
-8.4 Security Login Page . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
-8.5 Student Register first page . . . . . . . . . . . . . . . . . . . . . . . 31
-8.6 Student Register second page . . . . . . . . . . . . . . . . . . . . . . 31
-8.7 Student Register submit . . . . . . . . . . . . . . . . . . . . . . . . . 31
-8.8 Student Login Page . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
-8.9 Student Leave Applications . . . . . . . . . . . . . . . . . . . . . . . 32
-8.10 Faculty Page . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
-8.11 Faculty Leave Applications Approval or Rejection . . . . . . . . . . 32
+4.1 Data Flow Diagram   
+4.2 uml diagram   
+4.3 Sequence Diagram for Faculty   
+4.4 Sequence Diagram for Student   
+8.1 Home Page   
+8.2 Student Login Page   
+8.3 Faculty Login Page  
+8.4 Security Login Page  
+8.5 Student Register first page   
+8.6 Student Register second page   
+8.7 Student Register submit   
+8.8 Student Login Page  
+8.9 Student Leave Applications  
+8.10 Faculty Page   
+8.11 Faculty Leave Applications Approval or Rejection   
 
 ## Abbreviations
 Abbreviation Description
