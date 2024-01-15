@@ -53,52 +53,52 @@ List of Tables
 List of Figures  
 Abbreviations  
 
-CHAPTER 1 INTRODUCTION. . . . . . . . . . 1 
-[1.1 Introduction](#INTRODUCTION)  
-[1.2 Application](#application) . . . . . . . . 3
-[1.3 Objective](#objective)  . . . . . . . . . . . . . . 4
+CHAPTER 1 INTRODUCTION  
+[1.1 Introduction](#INTRODUCTION)    
+[1.2 Application](#application)  
+[1.3 Objective](#objective)   
 
-CHAPTER 2 Literature Survey . . . . . . . . . . . . . . . . . . . . . . 5
+CHAPTER 2 Literature Survey   
 
-CHAPTER 3 Software Requirement Analysis . . . . . . . . . . . . . 7
-[3.1 Problem Statement](#ProblemStatement) . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
-3.2 Modules defined and their functionalities . . . . . . . . . . . . . . . 8
+CHAPTER 3 Software Requirement Analysis   
+[3.1 Problem Statement](#ProblemStatement)  
+3.2 Modules defined and their functionalities  
 
-CHAPTER 4 Software Design . . . . . . . . . . . . . . . . . . . . . . . 10
-4.1 Data Flow Diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
-4.2 UML Diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
-4.3 Sequence Diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
-4.3.1 Sequence Diagram for Faculty: . . . . . . . . . . . . . . . . . 12
-4.3.2 Sequence Diagram for Student: . . . . . . . . . . . . . . . . . 13
+CHAPTER 4 Software Design   
+4.1 Data Flow Diagram    
+4.2 UML Diagram   
+4.3 Sequence Diagram   
+4.3.1 Sequence Diagram for Faculty:  
+4.3.2 Sequence Diagram for Student:   
 
-CHAPTER 5 Software and Hardware requirements . . . . . . . . . 14
-5.1 Software requirements . . . . . . . . . . . . . . . . . . . . . . . . . . 14
-5.2 Hardware requirements . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+CHAPTER 5 Software and Hardware requirements   
+5.1 Software requirements   
+5.2 Hardware requirements   
 
-CHAPTER 6 Coding Templates . . . . . . . . . . . . . . . . . . . . . . 17
-6.1 Client . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
-6.2 Server . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
-6.3 Execution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+CHAPTER 6 Coding Templates   
+6.1 Client   
+6.2 Server   
+6.3 Execution   
 
-CHAPTER 7 Testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
-7.1 Black Box Testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
-7.2 White Box Testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
-7.3 System Testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
-7.4 MongoDB Compass (for Database Testing): . . . . . . . . . . . . . . 25
+CHAPTER 7 Testing   
+7.1 Black Box Testing   
+7.2 White Box Testing   
+7.3 System Testing   
+7.4 MongoDB Compass (for Database Testing):   
 
-CHAPTER 8 Output Screens . . . . . . . . . . . . . . . . . . . . . . . 29
-8.1 Home Page . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
-8.2 Login Pages . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
-8.3 Student Registrations . . . . . . . . . . . . . . . . . . . . . . . . . . 30
-8.4 Student Page . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
-8.5 Faculty Page . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+CHAPTER 8 Output Screens  
+8.1 Home Page  
+8.2 Login Pages  
+8.3 Student Registrations  
+8.4 Student Page   
+8.5 Faculty Page  
 
-CHAPTER 9 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+CHAPTER 9 Conclusion   
 
-CHAPTER 10 Further Enhancements . . . . . . . . . . . . . . . . . . 35
-10.1 Furture Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+CHAPTER 10 Further Enhancements   
+10.1 Furture Scope   
 
-Bibliography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+Bibliography   
 
 ## List of Tables
 7.1 Student Registrations Data . . . . . . . . . . . . . . . . . . . . . . . 25
