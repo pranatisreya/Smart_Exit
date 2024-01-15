@@ -138,17 +138,14 @@ IT Information Technology
 ### 1.1 Introduction
 In the dynamic landscape of today’s digital era, the integration of technology
 is fundamental in reshaping traditional processes and enhancing efficiency. Embracing this ethos, our team has embarked on a transformative journey in the
-realm of Full Stack Development, culminating in the creation of the ”SMART
-EXIT: An Online Gatepass System for CBIT Students” project. Rooted in
-the principles of the MERN (MongoDB, Express.js, React, Node.js) stack, this
-project exemplifies the convergence of frontend and backend development to revolutionize the management of student departures within the academic domain.
+realm of Full Stack Development, culminating in the creation of the ”SMART EXIT: An Online Gatepass System for CBIT Students” project. Rooted in
+the principles of the MERN (MongoDB, Express.js, React, Node.js) stack, this project exemplifies the convergence of frontend and backend development to revolutionize the management of student departures within the academic domain.
 Full Stack Development, uniting client-side and server-side components, is
 the cornerstone of our endeavor. Seamlessly blending UI design with robust
 database management, our team utilized MERN to craft the innovative ”SMART
-EXIT” online gatepass system. This system, aptly named ”SMART EXIT,”
-serves as a testament to the efficacy of modern technology in simplifying and
+EXIT” online gatepass system. This system, aptly named ”SMART EXIT,” serves as a testament to the efficacy of modern technology in simplifying and
 streamlining the traditionally cumbersome process of student departure requests
-within educational institutions.”Smart Exit: An Online Gatepass System for CBIT Students” marks a
+within educational institutions."Smart Exit: An Online Gatepass System for CBIT Students" marks a
 significant leap in modernizing access control procedures within organizations.
 Departing from conventional paper-based methods, this digital solution streamlines the process of requesting and managing gatepasses. In essence, it provides a
 sophisticated platform for individuals to submit access requests, obtain approvals,
@@ -196,6 +193,7 @@ the submission of gatepass requests. By detailing the type of leave, reasons
 for departure, and expected duration, students contribute to a streamlined
 process. Real-time tracking functionalities afford transparency, allowing students
 to monitor the status of their gatepass requests.
+
 Faculty members engage with an efficient interface designed to expedite
 the approval process. Through the application, faculty can promptly decide
 on gatepass requests, receiving real-time notifications for effective communication. The faculty dashboard provides a comprehensive overview, enabling quick
@@ -205,6 +203,7 @@ The design ensures that only authorized gatepasses are accessible, adding an
 essential layer of security. The user-centric approach simplifies the submission
 process and reducing the likelihood of errors. Real-time tracking features offer
 administrators valuable insights into entry and exit activities.
+
 In essence, the ”SMART EXIT” project stands as a testament to the transformative power of Full Stack Development, particularly through the MERN stack.
 A multi-tiered approval process ensures that access requests undergo structured
 scrutiny, preventing unauthorized individuals from granting permissions. By addressing the nuances of student departures, the application enhances efficiency,
@@ -303,6 +302,7 @@ user-centric design, leading to communication gaps and complicating approval
 procedures. The prevailing system’s limitations are evident in its inability to
 adapt to the evolving technological landscape, hindering the institution’s ability
 to effectively manage and monitor entry and exit activities.
+
 To address these challenges, the ”SMART EXIT” project aims to develop a
 comprehensive online gatepass system tailored to the unique needs of CBIT. By
 leveraging Full Stack Development principles the project intends to bridge the
@@ -331,6 +331,7 @@ functionalities are integrated to facilitate immediate notifications to users, e
 system also features robust Database Integration, ensuring seamless storage and
 retrieval of user information, gatepass requests, and approval records. Additionally, stringent Security Measures are implemented to protect user data and
 prevent unauthorized access.
+
 Within the database components, the ”SMART EXIT” system employs several
 modules to store and manage critical data. The User Data Storage module
 is responsible for securely storing user information, including login credentials,
@@ -374,8 +375,10 @@ Use case diagrams offer a high-level view of system functionalities, helping to
 identify and document key user interactions. Together, these UML diagrams
 contribute to a comprehensive and standardized understanding of the project’s
 structure and behavior.
-Department of Information Technology 11
-4.3 Sequence Diagram
+ 11
+
+### 4.3 Sequence Diagram
+
 #### 4.3.1 Sequence Diagram for Faculty:
 Figure 4.3: Sequence Diagram for Faculty
 A sequence diagram for the faculty within the ”Smart Exit” project provides
@@ -390,6 +393,7 @@ status. The sequence diagram visually captures the chronological order of these
 interactions, offering a clear understanding of the faculty’s role in the approval
 process within the ”Smart Exit” system.
 Department of Information Technology 12
+
 #### 4.3.2 Sequence Diagram for Student:
 Figure 4.4: Sequence Diagram for Student
 A sequence diagram for a student in the ”Smart Exit” project illustrates
@@ -413,11 +417,13 @@ Front-End Languages: Proficiency in HTML, CSS, and JavaScript is essential for 
 Back-End Programming:Knowledge of a back-end programming language, such
 as Python or Node.js, is required for server-side processing, data management,
 and interactions with databases.
+
 Database Management:Familiarity with a database management system (DBMS),
 such as MongoDB, for storing and managing the website’s data.
 MERN stands for MongoDB, Express, React, and Node.js. It is a technology
 stack used to build full-stack web applications. Here is a brief overview of each
 component:
+
 MongoDB: It is a popular NoSQL database that stores data in a flexible, JSONlike format. It is used to handle large amounts of unstructured data efficiently.
 Express: It is a lightweight, robust, and flexible Node.js web application framework. It simplifies the process of building web applications and APIs by
 providing a set of features for web and mobile applications.
@@ -432,28 +438,37 @@ and scalability.
 To work with MERN stack, you need to install the necessary software and tools
 on your development machine. These include MongoDB, Node.js, and a code
 editor or IDE.
+
 Here’s a basic example of how to create a MERN stack application:
 Start by creating a new folder for your project and navigating to it in your
 terminal.
+
 Run the following command to initialize a new Node.js project:
 npm init -y
+
 Install the necessary packages using the following commands:
 npm install express mongoose
 npm install -D nodemon
+
 Create a new folder named ”client” inside your project folder. This will
 be the root folder for your React application.
 Inside the ”client” folder, create a new React app using the following command:
 npx create-react-app .
+
 Install Axios to make HTTP requests from your React application to your
-Express server:
-npm install axios
-Start your Express server by running the following command:
+Express server:  
+npm install axios  
+
+Start your Express server by running the following command:  
 nodemon server.js
+
 Finally, start your React application by running the following command:
-npm start
-Department of Information Technology 15
+npm start  
+
+ 15
 MERN stack application is now up and running. Now we can start building your web application using MongoDB for the database, Express for the
 server, and React for the user interface.
+
 Version Control: Familiarity with version control systems, such as Git, for
 managing code and collaborating with other developers.
 Server Management: Knowledge of server management, including server configuration, security measures, and scaling to accommodate traffic spikes.
