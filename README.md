@@ -48,10 +48,10 @@ that prides itself on its technological acumen.
 
 #### Table of Contents 
 
-- [Abstarct](#abstract) 
-- List of Tables 
-- List of Figures 
-- Abbreviations 
+-  [Abstarct](#abstract) 
+-  List of Tables 
+-  List of Figures 
+-  Abbreviations 
 
 CHAPTER 1 INTRODUCTION. . . . . . . . . . 1 
 [1.1 Introduction](#INTRODUCTION)  
