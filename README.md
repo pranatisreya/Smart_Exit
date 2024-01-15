@@ -1,6 +1,7 @@
 # SMART EXIT: A GatePass System for CBIT Students
 
- 
+<a name="abstract"/>
+
 # Abstract
 ”In today’s digital age, the pivotal role of technology in maintaining and
 managing information is universally acknowledged. The ”SMART EXIT” project
@@ -45,26 +46,22 @@ which stands as a testament to how technology can enhance the efficiency and
 effectiveness of routine administrative tasks within an educational institution
 that prides itself on its technological acumen.
 
-# 
-Table of Contents
+#### Table of Contents 
 
-* [Abstarct](https://github.com/pranatisreya/Smart_Exit?tab=readme-ov-file#abstract) .. . . . . . . . . . . . . . . . . . ii
+* [Abstarct](#abstract) .. . . . . . . . . . . . . . . . . . ii
 List of Tables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vi
 List of Figures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vii
 Abbreviations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vii
 
-CHAPTER 1 INTRODUCTION . . . . . . . . . . . . . . . . . . . . . 1
-#### Table of Contents  
+CHAPTER 1 INTRODUCTION. . . . . . . . . . 1 
 [1.1 Introduction](#INTRODUCTION)  
-
-1.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
-1.2 Application . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
-1.3 Objective . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+[1.2 Application](#application) . . . . . . . . 3
+[1.3 Objective](#objective)  . . . . . . . . . . . . . . 4
 
 CHAPTER 2 Literature Survey . . . . . . . . . . . . . . . . . . . . . . 5
 
 CHAPTER 3 Software Requirement Analysis . . . . . . . . . . . . . 7
-3.1 Problem Statement . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+[3.1 Problem Statement](#ProblemStatement) . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
 3.2 Modules defined and their functionalities . . . . . . . . . . . . . . . 8
 
 CHAPTER 4 Software Design . . . . . . . . . . . . . . . . . . . . . . . 10
@@ -187,6 +184,8 @@ more streamlined, secure, and accountable environment.
 Department of Information Technology 2
 
 
+<a name="application"/>
+
 ### 1.2 Application
 The ”SMART EXIT” system, meticulously crafted through Full Stack Development using the MERN stack, provides a tailored solution for managing student
 departures within the academic setting of CBIT. Distinct user roles—students,
@@ -213,6 +212,9 @@ fosters security, and contributes to the overall effectiveness of administrative
 tasks within the educational institution.
 Department of Information Technology 
 3
+
+
+<a name="objective"/>
 
 ### 1.3 Objective
 The primary goal of the ”SMART EXIT” project is to develop an efficient
@@ -246,6 +248,9 @@ process.
  4
 
 # CHAPTER 2
+
+<a name="LiteratureSurvey"/>
+
 ## Literature Survey
 1. ”Enhancing Campus Security through Online Gatepass Systems”
 The research published in the International Journal of Advanced Security
@@ -281,7 +286,11 @@ Department of Information Technology 6
 
 
 # CHAPTER 3
+
 ## Software Requirement Analysis
+
+<a name="ProblemStatement"/>
+
 ### 3.1 Problem Statement
 In the contemporary academic environment, the conventional methods employed for overseeing student departures within educational institutions often rely
 on manual, paper-based processes. This outdated approach gives rise to inefficiencies, delays in approvals, and potential security vulnerabilities. The absence
