@@ -51,7 +51,7 @@ that prides itself on its technological acumen.
 -  [Abstarct](#abstract) 
 -  List of Tables 
 -  List of Figures 
--  Abbreviations 
+>  Abbreviations 
 
 CHAPTER 1 INTRODUCTION. . . . . . . . . . 1 
 [1.1 Introduction](#INTRODUCTION)  
