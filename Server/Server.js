@@ -113,8 +113,9 @@ app.post('/StudentRegister', async (req, res) => {
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-          user: 'pranayasreti@gmail.com',
-          pass: 'kjnymtxmezhesclw',
+          user: 'example@gmail.com',
+          pass: 'xxxxxxxxxxxxxxxxx',
+          //https://www.gmass.co/blog/gmail-smtp/
         },
       });
 
